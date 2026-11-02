@@ -4,7 +4,7 @@ This repository will contain all my public project submissions as I work through
 
 
 ## Completed projects
-1. **Recipes** (HTML Foundations):<br>
+1. **Recipes** (HTML Foundations): [./odin-recipes](https://zzelitt.github.io/odin-project/odin-recipes/index.html)<br>
 A simple website with a homepage and several linked recipe pages.
 
 
