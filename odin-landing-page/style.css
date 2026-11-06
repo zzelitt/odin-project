@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 body{
     font-family: Calibri, sans-serif;
     margin: 0;
@@ -28,6 +32,8 @@ body{
 
 .top-content{
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
@@ -97,6 +103,10 @@ a{
     margin-top: 20px;
     align-items: flex-start;
     justify-content: center;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    flex: 1;
+    flex-wrap: wrap;
 }
 
 .service{
@@ -110,9 +120,43 @@ a{
     color: rgb(20, 35, 31);
     font-size: 20px;
     text-align: center;
+    padding-top: 10px;
 }
 
 .lower-cont img{
     border: 4px solid rgb(3, 62, 37);
     border-radius: 8px;
+}
+
+.testimonial{
+    background-color: #b7d3c2;
+    color: #1F2937;
+    padding: 40px;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 50px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.rew1,
+.rew2,
+.rew3{
+    background-color: #faf8f1;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    border: 4px solid rgb(3, 62, 37);
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(140, 139, 139)
+}
+
+.customer{
+    font-weight: 700;
+    text-align: right;
+    padding-top: 6px;
 }
