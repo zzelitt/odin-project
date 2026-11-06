@@ -4,6 +4,15 @@
 
 ---
 
+## **Screenshots**
+1. Mobile view
+
+
+2. Tablet view
+
+3. Desktop view
+
+---
 ## **<p align="center">Attribution</p>**
 
 1. (Header image) a row of potted plants sitting on top of a wooden shelf
