@@ -5,12 +5,21 @@
 ---
 
 ## **Screenshots**
-1. Mobile view
+1. **Mobile view**
+![image alt](https://github.com/zzelitt/odin-project/blob/1d8a0d680455cf5926a122fb0142d0a92919f5ca/odin-landing-page/img/mobile-view.png)
 
+<br>
 
-2. Tablet view
+2. **Tablet view**
+![image alt](https://github.com/zzelitt/odin-project/blob/1d8a0d680455cf5926a122fb0142d0a92919f5ca/odin-landing-page/img/tablet-view.png)
 
-3. Desktop view
+<br>
+
+3. **Desktop view**
+![image alt](https://github.com/zzelitt/odin-project/blob/1d8a0d680455cf5926a122fb0142d0a92919f5ca/odin-landing-page/img/desktop-view1.png)
+![image alt](https://github.com/zzelitt/odin-project/blob/1d8a0d680455cf5926a122fb0142d0a92919f5ca/odin-landing-page/img/desktop-view2.png)
+
+##### The assignment doesn't require adjusting responsiveness for different screen sizes.
 
 ---
 ## **<p align="center">Attribution</p>**
