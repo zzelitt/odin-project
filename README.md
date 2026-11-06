@@ -13,7 +13,7 @@ A simple website with a homepage and several linked recipe pages.
 
 <br>
 
-2. **rooted.** (Flexbox - Landing Page): [./odin-landing-page](https://zzelitt.github.io/odin-project/odin-landing-page/index.html)
+2. **rooted.** (Flexbox - Landing Page): [./odin-landing-page](https://zzelitt.github.io/odin-project/odin-landing-page/index.html)<br>
 Website Landing page that contains flexboxes.
 
 <br>
