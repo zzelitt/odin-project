@@ -206,3 +206,7 @@ a{
     font-weight: 700;
     background-color:#2f5d50;
 }
+
+.footer a{
+    text-decoration-line: underline;
+}
