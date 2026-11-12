@@ -19,7 +19,7 @@ Website Landing page that contains flexboxes.
 <br>
 
 3. **Rock-paper-scissors** (JavaScript basics): [./odin-rock-paper-scissors](https://zzelitt.github.io/odin-project/odin-rock-paper-scissors/index.html)<br>
-A console based rock-paper-scissors game. Game runs for 5 rounds and result is display in the console.
+Rock paper scissors game on a website.
 
 ---
 
