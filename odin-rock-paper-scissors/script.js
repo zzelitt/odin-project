@@ -10,49 +10,58 @@ function playRound(humanChoice, computerChoice){
     if(humanChoice === "rock"){
         if(computerChoice === "rock"){
             updateText("TIE! Rock don't beat up their own kind");
-            updateScore();
         }
         else if(computerChoice === "paper"){
             updateText("You LOSE! Paper beats rock");
             computerScore += 1;
-            updateScore();
         }
         else if(computerChoice === "scissors"){
             updateText("You WIN! Rock beats scissors");
             humanScore += 1;
-            updateScore();
         }
     }
     else if(humanChoice === "paper"){
         if(computerChoice === "rock"){
             updateText("You WIN! Paper beats rock");
             humanScore += 1;
-            updateScore();
         }
         else if(computerChoice === "paper"){
             updateText("TIE! Paper don't beat up their own kind");
-            updateScore();
         }
         else if(computerChoice === "scissors"){
             updateText("You LOSE! Scissors beat paper");
             computerScore += 1;
-            updateScore();
         }
     }
     else if(humanChoice === "scissors"){
         if(computerChoice === "rock"){
             updateText("You LOSE! Rock beats scissors");
             computerScore += 1;
-            updateScore();
         }
         else if(computerChoice === "paper"){
             updateText("You WIN! Scissors beat paper");
             humanScore += 1;
-            updateScore();
         }
         else if(computerChoice === "scissors"){
             updateText("TIE! Scissors don't beat up their own kind");
-            updateScore();
+        }
+    }
+    updateScore();
+    gameResult();
+
+}
+
+function gameResult(){
+    if (humanScore === 5 || computerScore === 5){
+        if(humanScore > computerScore){
+            updateText("You WON this round!");
+            humanScore = 0;
+            computerScore = 0;
+        }
+        else{
+            updateText("You LOSE this round!");
+            humanScore = 0;
+            computerScore = 0;
         }
     }
 }
