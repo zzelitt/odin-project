@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <style>
+        .buttons{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <p style="font-size: large; font-weight: bold; font-family: Calibri, sans-serif;">Refresh the Page if you haven't received any prompts or you didn't finish 5 rounds of the game for some reason</p>
-    <ol style="font-size: large; font-weight: bold; font-family: Calibri, sans-serif;">
-        <li>
-            F12 to open Developer Tools and Head over to the <code style="padding: 2px;  background-color: rgb(129, 133, 136);">Console</code> Tab <br> 
-            OR <br> Ctrl+Shift+J (Windows/Linux), Cmd+Option+J (macOS) to directly access <code style="padding: 2px;  background-color: rgb(129, 133, 136);">Console</code>. 
-        </li>
-        <li>
-            After finishing 5 rounds (which you probably did if you're seeing this and no more popups), <code style="padding: 2px;  background-color: rgb(129, 133, 136);">Console</code> is where the scores will be printed.
-        </li>
-    </ol>
+    <div class="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
 </body>
 </html>
