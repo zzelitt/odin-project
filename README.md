@@ -23,7 +23,7 @@ Rock paper scissors game on a website.
 
 <br>
 
-4. **sketchpix** (JavaScript basics):
+4. **sketchpix** (JavaScript basics):<br>
 **Live:** [zzelitt.github.io/sketchpix](https://zzelitt.github.io/sketchpix/)<br>
 **Repo:** [../sketchpix](https://github.com/zzelitt/sketchpix)
 
