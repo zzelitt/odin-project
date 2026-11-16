@@ -30,7 +30,7 @@ Rock paper scissors game on a website.
 <br>
 
 5. **Calculator** (Foundations final project):<br>
-**Live:** [zzelitt.github.io/calculator](https://zzelitt.github.io/calculator/)
+**Live:** [zzelitt.github.io/calculator](https://zzelitt.github.io/calculator/)<br>
 **Repo:** [../calculator](https://github.com/zzelitt/calculator)
 
 <br>
