@@ -27,6 +27,14 @@ Rock paper scissors game on a website.
 **Live:** [zzelitt.github.io/sketchpix](https://zzelitt.github.io/sketchpix/)<br>
 **Repo:** [../sketchpix](https://github.com/zzelitt/sketchpix)
 
+<br>
+
+5. **Calculator** (Foundations final project):<br>
+**Live:** [zzelitt.github.io/calculator](https://zzelitt.github.io/calculator/)
+**Repo:** [../calculator](https://github.com/zzelitt/calculator)
+
+<br>
+
 ---
 
 ## Current course: Foundations
