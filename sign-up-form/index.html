@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="scripts.js" defer></script>
+</head>
+<body>
+    <section class="main">
+        <section class="left-side">
+            <div id="logo-background"></div>
+            <div id="logo-text">rooted.</div>
+            <div id="photo-credit">
+                <p>
+                    Photo by <a href="https://unsplash.com/@anniespratt" target="_blank" rel="noreferrer">Annie Spratt</a> on
+                    <a href="https://unsplash.com/photos/red-flowers-on-white-ceramic-pot-zPktb9QkcGY" target="_blank" rel="noreferrer">Unsplash</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="right-side">
+            <section class="header">
+                <div id="home">
+                    <a href="../landing-page/index.html">Home</a>
+                </div>
+                <div id="logo-header">rooted.</div>
+            </section>
+
+            <section class="top-text">
+                <div>
+                    This is not a real online service! You know you need that bonsai tree in your
+                    home so you appreciate nature everytime you look at it. <em>Bonsai trees amaze me personally.</em> <br>
+                    Sign Up <em>now</em> to get started!
+                </div>
+                <div class="top-text2">
+                    You <em>know</em> you want to.
+                </div>
+            </section>
+
+            <section class="sign-up-form">
+                <div id="en-text">Let's do this!</div>
+                <form>
+                    <div class="name-form">
+                        <div class="first">
+                            <label for="first_name">First Name *</label>
+                            <input type="text" id="first_name" required>
+                        </div>
+                        <div class="last">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name">
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <div class="email">
+                            <label for="contact-email">Email *</label>
+                            <input type="email" id="contact-email" required>
+                        </div>
+                        <div class="phone-num">
+                            <label for="contact-num">Phone number</label>
+                            <input type="number" id="contact-num">
+                        </div>
+                    </div>
+
+                    <div class="password-form">
+                        <div class="password1">
+                            <label for="password-init">Password *</label>
+                            <input type="password" id="password-init" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
+                        </div>
+                        <div class="password2">
+                            <label for="password-confirm">Confirm Password *</label>
+                            <input type="password" id="password-confirm" required>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="password-req">
+                    <div class="req1">
+                        <img src="./img/cross-circle-svgrepo-com.svg" id="icon1">
+                        <div id="req1-text">Minimum 8 characters</div>
+                    </div>
+                    <div class="req2">
+                        <img src="./img/cross-circle-svgrepo-com.svg" id="icon2">
+                        <div id="req2-text">Atleast one alphabet letter</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="call-to-action">
+                <button id="create-button">Create Account</button>
+                <p id="call-text">Already have an account? <a href="">Log in</a></p>
+            </section>
+        </section>
+    </section>
+</body>
+</html>

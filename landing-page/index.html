@@ -20,10 +20,10 @@
                 <div class="left">
                     <div class="headline">Rooted in nature, delivered to your door.</div>
                     <div class="left subtext">
-                        From delicate and mesmorising plants to tree saplings. We have all kinds of 
-                        plants, pots, and garden equipment to make you experience nature at home
+                        <strong><em>Not a real online service!</em></strong> <br> Do not enter any real credentials
+                        on the sign-up page. This is a test website.
                     </div>
-                    <button class="sign-button">Sign Up</button>
+                    <button class="sign-button1">Sign Up</button>
                 </div>
                 <div class="right">
                     <img src="./img/rachel-clark-p771ki7ZuJU-unsplash.jpg" alt="Photo of potted plants by Rachel Clark" class="top-img" width="400px">
@@ -57,21 +57,21 @@
             <div class="testimonial">
                 <div class="rew1">
                     <p>
-                        “Every plant I brought home would die within a couple of months, until I found rooted. 
+                        “Every plant I brought home would die within a couple of months, until I found rooted.
                     Three years later, my apartment is a jungle.”
                     </p>
                     <p class="customer">- Maya R.</p>
                 </div>
                 <div class="rew2">
                     <p>
-                        “My order arrived in two days, and the plant was packed so carefully 
+                        “My order arrived in two days, and the plant was packed so carefully
                         that not a single leaf was bent. It looked even better than the photo.”
                     </p>
                     <p class="customer">- Daniel K.</p>
                 </div>
                 <div class="rew2">
                     <p>
-                        “I bought a plant as a gift and the team included a care card and a handwritten note. 
+                        “I bought a plant as a gift and the team included a care card and a handwritten note.
                         My sister still talks about it.”
                     </p>
                     <p class="customer">- Cody S.</p>
@@ -83,7 +83,7 @@
                     <p class="head">Get your new sapling!</p>
                     <p class="subtext">Sign up to access our services by clicking that button over there!</p>
                 </div>
-                <button>Sign Up</button>
+                <button class="sign-button2">Sign Up</button>
             </div>
         </div>
 
@@ -91,5 +91,15 @@
             <p>Made by <a href="https://github.com/zzelitt">zzelitt</a> © rooted. 2026</p>
             <p>Contains illustrations from unsplash. Checkout <a href="https://github.com/zzelitt/odin-project/blob/main/odin-landing-page/README.md">attribution</a></p>
         </div>
+
+        <script>
+            const button1 = document.querySelector(".sign-button1").addEventListener("click", () => {
+              window.location.href = "../sign-up-form/index.html"
+            })
+
+            const button2 = document.querySelector(".sign-button2").addEventListener("click", () => {
+              window.location.href = "../sign-up-form/index.html"
+            })
+        </script>
     </body>
 </html>
